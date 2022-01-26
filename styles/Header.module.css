@@ -1,0 +1,116 @@
+.header {
+  padding: 0;
+  margin: 1% 4.5%;
+  top: 0;
+  left: 0;
+  height: 10vh;
+  display: flex;
+  width: 100vw;
+  justify-content: space-between;
+}
+.nav_item_left {
+  display: flex;
+  width: 70%;
+  margin-left:4%;
+}
+
+.nav_item_right {
+  display: flex;
+  align-items: center;
+  max-width: calc(500 * var(--res));
+  margin-right: 25%;
+  justify-content:space-around;
+}
+.nav_item_right > li {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+   height:100%;
+  margin-left: 10%;
+}
+.nav_item_right > li:last-child {
+  width: 40%;
+ 
+}
+
+.nav_item_right_icon{
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  width: calc(35 * var(--res));  
+}
+.logo {
+  align-self: center;
+display: flex;
+justify-content: center;
+width: calc(120 * var(--res));
+}
+
+.lineup {
+  /* background: #D8D8D8; */
+  display: flex;
+  justify-content: center;
+  width: 2%;
+  height: calc(42 * var(--res));
+  border-left: solid 2px #d8d8d8;
+  margin: auto 0 auto 2%;
+}
+.container_link {
+  display: flex;
+  
+  align-self: center;
+  padding-left: 0px;
+  width:60%;
+
+}
+.container_link li {
+  margin-left:2vw;
+}
+.container_link li:last-child {
+
+  
+}
+.container_link li a {
+  font-family: Aeonik-regular;
+  text-align: left;
+  font-weight:600;
+  width: 100%;
+
+  font-size: calc(18 * var(--res));
+  font-weight: 900;
+}
+.container_link li a:hover {
+  cursor: pointer;
+}
+.container_right_flag {
+  transform: translateX(-30%);
+  background: #FDFDFD;
+  border-radius:6px;
+}
+
+.btn {
+  font-family: Aeonik-Bold;
+  font-size: calc(18 * var(--res));
+  border: none;
+  background-color: transparent;
+  margin-bottom:3%;
+}
+.btn_blue {
+  margin-bottom:3%;
+
+  align-self:center;
+  width: calc(145 * var(--res));
+  height: calc(45 * var(--res));
+  background: linear-gradient(264.57deg, #3b5cff -3.04%, #16f3fd 222.91%);
+  box-shadow: 0px 4px 20px -8px rgba(37, 64, 200, 0.48);
+  border-radius: 6px;
+  border: none;
+  font-family: Aeonik-Bold;
+  color: #fdfdfd;
+  font-size: calc(18 * var(--res));
+  text-align: center;
+  letter-spacing: 0.02em;
+  outline: none;
+  padding: 0 8px;
+}
+

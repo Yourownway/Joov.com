@@ -1,0 +1,9 @@
+/* slider */
+.onSlideRight{
+    transform:translateX(-300%);
+   
+  }
+  
+  .onSlideLeft{
+    border:solid red;
+  }

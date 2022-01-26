@@ -1,0 +1,32 @@
+.slider{
+
+}
+.container {
+    width: 100%;
+    height: 63vh;
+    display: flex;
+    align-items:center;
+   margin-left:-5%;
+
+    /* overflow-y: hidden;*/
+    overflow:hidden; 
+    scroll-behavior: smooth;
+  
+  
+  }
+
+  .container_small{
+    width: 100%;
+    height: 63vh;
+    display: flex;
+    align-items:center;
+
+
+    /* overflow-y: hidden;*/
+    overflow:hidden; 
+    scroll-behavior: smooth;
+  
+  
+  }
+
+ 
