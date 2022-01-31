@@ -6,6 +6,7 @@
 }
 .slider{
 height:80vh;
+margin-top: 3%;
 }
 .slider > div{
   overflow:visible !important;
@@ -20,12 +21,12 @@ height:80vh;
   display: flex;
   flex-direction: column;
   justify-content:space-evenly;
-  width:calc(600 * var(--res));
+  max-width:calc(600 * var(--res));
   height:calc(500 * var(--res));
   border: 2px solid #ececec;
   border-radius: 12px;
   margin-left:8%;
-  
+  margin-top:4%;
 }
 
 

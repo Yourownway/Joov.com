@@ -7,11 +7,10 @@
     display: flex;
     align-items:center;
    margin-left:-5%;
-
+   
     /* overflow-y: hidden;*/
     overflow:hidden; 
     scroll-behavior: smooth;
-  
   
   }
 

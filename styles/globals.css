@@ -169,8 +169,7 @@ p{
     width: 5%;
       height: calc(50 * var(--res));
       border-left: solid 2px var(--opac);
-      margin: auto 0 auto 5%;
-   
+    transform:translateX(-80%)        
 }
 
 

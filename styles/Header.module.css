@@ -18,14 +18,15 @@
   display: flex;
   align-items: center;
   max-width: calc(500 * var(--res));
-  margin-right: 25%;
+  margin-right: 15%;
+
   justify-content:space-around;
 }
 .nav_item_right > li {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-   height:100%;
+ height:100%;
   margin-left: 10%;
 }
 .nav_item_right > li:last-child {
@@ -65,9 +66,15 @@ width: calc(120 * var(--res));
 }
 .container_link li {
   margin-left:2vw;
+  min-width:60px;
+  margin-bottom:0;
+  
+  display: flex;
+  align-items: center;
+
 }
 .container_link li:last-child {
-
+transform:translateX(2vw)
   
 }
 .container_link li a {
@@ -75,9 +82,10 @@ width: calc(120 * var(--res));
   text-align: left;
   font-weight:600;
   width: 100%;
-
+  word-spacing:0.1rem;
   font-size: calc(18 * var(--res));
   font-weight: 900;
+
 }
 .container_link li a:hover {
   cursor: pointer;
